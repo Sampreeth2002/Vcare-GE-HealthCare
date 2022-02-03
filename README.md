@@ -2,32 +2,23 @@
 
 ## About Project
 
-The application Teams Clone is a MERN Stack website which uses React JS in front-end and Node JS in back-end.<br/>
+## PROBLEM STATEMENT
+The Problem we are trying to solve is remote consultation of health issues and instant consultation with a doctor in the case of emergency.
+Currently, if multiple people visit the hospital at the same time there is a higher chance that many would get Covid if one of them visits the hospital for a covid test and there exists no filtering system for this.<BR>
+Patients need to visit the hospital for minor health problems that can be avoided with a simple online appointment with a doctor. 
+In the case of an emergency situation, patients must wait till the ambulance arrives to the place and missing crucial minutes of care.
+Also after pandemic, many hospitals must start working in a hybrid model i.e. both offline and online consultations.
+As we all know, doctors work long hours and without rest, so when hospitals adopt a hybrid model, they will be able to take a break from their rigorous schedule.
 
-The User must first create an account in the website.
-After successfull login the user has 3 options in the home page namely,
+## SOLUTION
+The theme we are choosing for the challenge is “Points of care”. 
+We're developing software for an online health-care management system for check-ups and scheduling appointments, with features to help doctors and patients work more efficiently together.<BR>
+We will create video-conference software that can notify doctors about upcoming visits and build a proper workflow from one patient to the next with little to no intervention and patient can consult doctors online easily.
+Current solutions for video conferencing for an appointment for a patient include using external software’s such as whatsapp or zoom meetings which are not properly organised.
+This model can not implemented for large scale hospitals.
+The existing software doesn’t have immediate consultation in case of emergency.
+<BR>
 
-- _Instant Meeting_ <br/>
-- _Join Meeting_ <br/>
-- _Create Team_ <br/>
-
-## Instant Meeting
-
-When a user selects on instant meeting ,the user is redirected to the video call room screen where he can copy the **meeting link** and share with other user to join the meeting.<br/>
-
-The users in the meeting can **chat while the video call** is happing in parallel by selecting on chat button. If again the same meeting link is used for next video call, the **chat of previous meeting is reterived**. The user can **turn the video and audio on/off** during the call.
-<br/>
-
-In the Video call more than **100+ users** can join the room.
-
-## Join Meeting
-
-If the host of the video call sends the meeting code to the user, he/she can join the video call room and have same features of instant meeting.
-
-## Create Team
-
-The user can create team by selecting this option and becomes admin of the team. The admin can **add other users** to the team. In the team, the users can **chat and also join the team video call** by selecting the video call button in the team.<br/>
-In the video call of team the recent chat of team is retrived and users can chat parallel to the video call and this chat can reffered again in the team.
 
 ## Tech Stack
 
