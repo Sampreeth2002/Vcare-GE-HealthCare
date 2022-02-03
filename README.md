@@ -1,7 +1,4 @@
-# Teams Clone
-
-Hosted Website [Teams Clone](https://teams-clone-engage-sam.herokuapp.com)<br/>
-https://teams-clone-engage-sam.herokuapp.com/
+# VCare
 
 ## About Project
 
