@@ -29,7 +29,7 @@ If the host of the video call sends the meeting code to the user, he/she can joi
 The user can create team by selecting this option and becomes admin of the team. The admin can **add other users** to the team. In the team, the users can **chat and also join the team video call** by selecting the video call button in the team.<br/>
 In the video call of team the recent chat of team is retrived and users can chat parallel to the video call and this chat can reffered again in the team.
 
-This feature is inspired from actual Team application.
+## Tech Stack
 
 The application uses
 
@@ -42,17 +42,6 @@ The application uses
 [Firebase](https://firebase.google.com) for real time data base for Chat feature.
 
 ## Getting Started
-
-Create .env file and create an account in twilio for the below details [Twilio](https://www.twilio.com) and [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
-
-```javascript
-TWILIO_ACCOUNT_SID=
-TWILIO_API_KEY=
-TWILIO_API_SECRET=
-
-ATLAS_URI =
-
-```
 
 Change Directory into the Server and Client Folder and run _npm install_ to install all the npm dependencies
 
