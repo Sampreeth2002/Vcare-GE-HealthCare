@@ -1,0 +1,117 @@
+.chat_videoMessage {
+  background-color: #dff4f3;
+}
+
+.chat-room-name_videoMessage {
+  margin: 0px;
+}
+
+.chat-room-last-seen_videoMessage {
+  margin: 0;
+}
+
+.chat_header_videoMessage {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  background-color: #a6e3e9;
+  color: white;
+}
+
+.chat_headerInfo_videoMessage {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.chat_headerInfo_videoMessage > h3 {
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+
+.chat_headerInfo_videoMessage > p {
+  color: gray;
+}
+
+.chat_headerRight_videoMessage {
+  display: flex;
+  justify-content: space-between;
+  min-width: 100px;
+}
+
+.chat_body_videoMessage {
+  /* flex: 1;
+  flex-direction: column; */
+  /* background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png"); */
+  background-color: #edf6e5;
+  background-repeat: repeat;
+  background-position: center;
+  padding: 30px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 73vh;
+  /* overflow: hidden; */
+}
+
+.chat_message_videoMessage {
+  position: relative;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: white;
+  width: fit-content;
+  margin-top: 5px;
+}
+
+.chat_name_videoMessage {
+  position: absolute;
+  top: -2px;
+  /* font-weight: 800; */
+  font-size: small;
+  color: #ffc7c7;
+}
+
+.chat_timestemp_videoMessage {
+  margin-left: 10px;
+  font-size: xx-small;
+}
+
+.chat_receiver_videoMessage {
+  margin-left: auto;
+  background-color: #dde7f2;
+}
+
+.chat_footer_videoMessage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 62px;
+  border: 1px solid lightgray;
+  background-color: #dff4f3;
+  outline-color: #dff4f3;
+}
+
+.chat_footer_videoMessage > form {
+  flex: 1;
+  display: flex;
+}
+
+.chat_footer_videoMessage > form > input {
+  flex: 1;
+  border-radius: 30px;
+  padding: 10px;
+  border: none;
+  margin: 0 10px 0px 10px;
+  outline: none;
+}
+
+.ul {
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .chachat_videoMessaget {
+    padding-top: 0vh;
+    background-color: #dff4f3;
+  }
+}
